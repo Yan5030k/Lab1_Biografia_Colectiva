@@ -16,14 +16,15 @@
   <a class="skip" href="#contenido">Saltar al mural</a>
 
   <header class="topbar">
-    <a class="brand" href="#portada">Lucero</a>
+    <a class="brand" href="#caratula">Lucero</a>
     <button class="menu-btn" id="menuBtn" type="button" aria-expanded="false" aria-controls="rail">Recorrido</button>
   </header>
 
   <nav class="rail" id="rail" aria-label="Secciones del mural">
-    <a class="brand" href="#portada">Lucero</a>
+    <a class="brand" href="#caratula">Lucero</a>
     <ol>
-      <li><a class="is-active" href="#portada" aria-current="true"><i></i>Portada</a></li>
+      <li><a class="is-active" href="#caratula" aria-current="true"><i></i>Carátula</a></li>
+      <li><a href="#portada"><i></i>Portada</a></li>
       <li><a href="#presentacion"><i></i>Presentación</a></li>
       <li><a href="#primaria"><i></i>Primaria</a></li>
       <li><a href="#secundaria"><i></i>Secundaria</a></li>
@@ -40,6 +41,33 @@
   <button class="shade" id="shade" type="button" hidden aria-label="Cerrar menú"></button>
 
   <main id="contenido">
+    <section class="caratula" id="caratula">
+      <article class="caratula-page">
+        <img class="caratula-marca" src="assets/ugb-logo.jpg" alt="" aria-hidden="true">
+        <img class="caratula-logo" src="assets/ugb-logo.jpg" alt="Universidad Gerardo Barrios">
+        <p class="caratula-lugar">San Miguel, El Salvador</p>
+        <p class="caratula-facultad">Facultad de Ciencia y Tecnología</p>
+
+        <p class="caratula-etiqueta">Asignatura</p>
+        <p class="caratula-dato">Sociología General</p>
+
+        <p class="caratula-barra">Docente:</p>
+        <p class="caratula-dato">Kevin Francisco Muñoz Paniagua</p>
+
+        <p class="caratula-barra">Actividad:</p>
+        <p class="caratula-dato">(Lab 1): Biografía colectiva</p>
+
+        <p class="caratula-barra">Estudiantes</p>
+        <ul class="caratula-nombres">
+          <li>Reina Lizbeth Quintanilla Diaz</li>
+          <li>Dilcia Raquel Reyes Santos</li>
+          <li>Jhoan Mauricio Ortega Ventura</li>
+        </ul>
+        <span class="caratula-linea" aria-hidden="true"></span>
+        <a class="caratula-entrar" href="#portada">Entrar a la biografía</a>
+      </article>
+    </section>
+
     <section class="cover-sec" id="portada">
       <div class="cover">
         <div>
@@ -55,9 +83,9 @@
           </nav>
           <p class="team-label rise d4">Integrantes del equipo</p>
           <ul class="team rise d4" aria-label="Integrantes del equipo">
-            <li>Jhoan</li>
-            <li>Reina</li>
-            <li>Dilcia</li>
+            <li>Reina Lizbeth Quintanilla Diaz</li>
+            <li>Dilcia Raquel Reyes Santos</li>
+            <li>Jhoan Mauricio Ortega Ventura</li>
           </ul>
         </div>
         <figure class="cover-visual rise d2">
@@ -436,7 +464,7 @@
 
     <footer class="wrap foot">
       <p>Mural digital · Biografía colectiva</p>
-      <p>Jhoan · Reina · Dilcia</p>
+      <p>Reina Lizbeth Quintanilla Diaz · Dilcia Raquel Reyes Santos · Jhoan Mauricio Ortega Ventura</p>
       <p>Lucero es un personaje de ficción.</p>
     </footer>
   </main>
