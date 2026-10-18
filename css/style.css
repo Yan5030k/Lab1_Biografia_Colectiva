@@ -1141,6 +1141,7 @@ h2 {
 .js .scenes.in .scene:nth-child(8) { animation-delay: 0.46s; }
 .js .scenes.in .scene:nth-child(9) { animation-delay: 0.52s; }
 .js .scenes.in .scene:nth-child(10) { animation-delay: 0.58s; }
+.js .scenes.in .scene:nth-child(11) { animation-delay: 0.64s; }
 
 @keyframes scene-in {
   from { opacity: 0; transform: translateY(14px); }
